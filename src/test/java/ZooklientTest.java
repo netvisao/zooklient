@@ -23,10 +23,7 @@ public class ZooklientTest {
 
         connStr = System.getenv("zkCon");
         if (connStr == null) {
-            connStr =
-                    "zconf-a01.white.aol.com:2181," +
-                    "zconf-a02.white.aol.com:2181," +
-                    "zconf-a03.white.aol.com:2181";
+            connStr = ""/* Insert Connection String Here */;
         }
 
 
